@@ -1,0 +1,351 @@
+body {
+  background: #eee;
+  padding: 0px;
+  margin: 0px;
+  border-top: 5px #e11f00 solid;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: #fff;
+}
+
+.logo {
+  padding: 10px;
+  text-align: center;
+}
+
+#menu {
+  border-top: 1px #eee solid;
+  border-bottom: 1px #eee solid;
+  padding: 0px;
+  max-width: 1024px;
+  margin: auto;
+  text-align: center;
+}
+
+#menu > li {
+  display: inline-block;
+  padding: 5px;
+}
+
+#menu > li > a {
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+#menu > li > a:hover {
+  color: #000;
+}
+
+#banner {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  height: 50vh;
+  background: url(../img/banner.jpg) center top no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: auto;
+  max-width: 1024px;
+  background-color: #fff;
+}
+
+.container > .red {
+  background-color: red;
+  text-align: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px 0;
+}
+
+.container > .red > h2 {
+  font-size: 28px;
+  margin: auto;
+  padding: 0;
+}
+
+.container > .red > p {
+  font-size: 14px;
+}
+
+.container .service {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.container .service h3 {
+  font-size: 18px;
+}
+
+.container .service p {
+  color: #222;
+}
+
+.container .service .linered {
+  background-color: red;
+  width: 150px;
+  height: 5px;
+  margin: auto;
+}
+
+.container .service .box {
+  text-align: left;
+  padding: 20px 0;
+  height: 130px;
+  margin-top: 20px;
+}
+
+.container .service .box > div {
+  width: 32%;
+  background: #fff;
+  height: 110px;
+  float: left;
+}
+
+.container .service .box > div .img {
+  height: 70px;
+  line-height: 70px;
+  width: 70px;
+  background: #fff;
+  border: 2px #e11f00 solid;
+  border-radius: 100%;
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: #e11f00;
+}
+
+.container .service .box .texto h4 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container #amet {
+  background-color: #f0ecec;
+  padding: 0 15px;
+}
+
+.container #amet .col-1 {
+  width: 50%;
+  height: 250px;
+  float: left;
+  background-color: #f0ecec;
+}
+
+.container #amet .col-1 .texto {
+  font-size: 12px;
+  font-style: italic;
+  color: #666;
+}
+
+.container #amet .col-2 {
+  width: 50%;
+  height: 250px;
+  float: left;
+  background: url("../img/bc.jpg") center top no-repeat;
+  background-size: cover;
+}
+
+.container #lancamento .lancamento {
+  width: 50%;
+  float: right;
+  padding: 10px;
+}
+
+.container #lancamento .lancamento .box {
+  padding: 10px;
+  background-color: #f0ecec;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.container #lancamento .lancamento .box h5 {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.container #lancamento .lancamento .box img {
+  width: 100%;
+  padding-left: 2px;
+  margin-bottom: 25px;
+}
+
+.container #lancamento .lancamento .box .title {
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+}
+
+.container #lancamento .lancamento .box .texto {
+  font-size: 12px;
+}
+
+.container #lancamento .lista {
+  width: 45%;
+  float: left;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.container #lancamento .lista ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container #lancamento .lista ul li {
+  list-style-type: none;
+  float: right;
+  border-top: 1px #eee solid;
+  border-bottom: 1px #eee solid;
+}
+
+.container #lancamento .lista h5 {
+  font-size: 20px;
+  padding: 5;
+  font-weight: lighter;
+}
+
+.container #lancamento .lista .title {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.container #lancamento .lista .texto {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.container #lancamento .lista #imagem {
+  float: left;
+  margin-bottom: 13px;
+  padding-right: 10px;
+  margin-left: 5px;
+}
+
+.container #lancamento .lista .a {
+  display: block;
+}
+
+.table {
+  width: 100%;
+  clear: both;
+  padding: 10px 0;
+}
+
+.table table {
+  padding: 10px;
+}
+
+.table table .title {
+  background-color: #000;
+  color: #fff;
+  line-height: 40px;
+  text-align: left;
+  font-size: 100px;
+}
+
+.table table .title th {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.table table tr .data {
+  font-weight: bold;
+  color: #222;
+}
+
+.table table tr th,
+.table table tr td {
+  padding: 10px;
+  border-bottom: 1px #eee solid;
+  font-size: 12px;
+  font-style: italic;
+  text-align: left;
+}
+
+footer .black {
+  background-color: black;
+  height: 40px;
+}
+
+footer .black ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer .black ul li {
+  color: #fff;
+  max-width: 1024px;
+  margin: auto;
+  text-align: center;
+  padding-top: 7px;
+  font-size: 20px;
+}
+
+footer .red {
+  background-color: #e11f00;
+  width: 100%;
+  margin: auto;
+}
+
+footer .red ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+footer .red ul li a {
+  display: list-item;
+  max-width: 1024px;
+  padding: 2px 200px;
+  color: white;
+  text-decoration: none;
+}
+
+footer .red .corpo {
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .red .corpo .menu {
+  vertical-align: top;
+  display: inline-block;
+  font-weight: lighter;
+  padding: 6px 0px;
+  padding-left: 70px;
+}
+
+footer .red .corpo h6 {
+  font-size: 20px;
+  color: #fff;
+  padding: 0px 200px;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+
+footer .white {
+  background-color: #FFF;
+  height: 40px;
+}
+
+footer .white p {
+  text-align: center;
+  font-size: 12px;
+  max-width: 1024px;
+  margin: auto;
+  padding-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */
